@@ -20,6 +20,13 @@
           }
         },
         {
+          "type": "session",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "background": "#07585c",
+          "leading_diamond": "\uE0B6"
+        },
+        {
           "type": "ytm",
           "style": "plain",
           "powerline_symbol": "\uE0B0",
@@ -142,7 +149,7 @@
           "trailing_diamond": "",
           "properties": {
             "always_enabled": true,
-            "prefix": "  "
+            "prefix": " "
           }
         },
         {
