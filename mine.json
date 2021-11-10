@@ -70,15 +70,15 @@
         {
           "type": "git",
           "style": "plain",
-          "powerline_symbol": "",
           "invert_powerline": false,
           "foreground": "#193549",
           "background": "#fffb38",
           "leading_diamond": "",
           "trailing_diamond": "",
           "properties": {
+            "prefix": " ",
             "display_status": true,
-            "display_stash_count": true,
+            "display_stash_count": false,
             "display_upstream_icon": true
           }
         },
