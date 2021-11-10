@@ -27,6 +27,17 @@
           "leading_diamond": "\uE0B6"
         },
         {
+          "type": "time",
+          "style": "plain",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#ffffff",
+          "properties": {
+            "time_format": "2006-01-02 15:04:05",
+            "prefix": " "
+          }
+        },
+        {
           "type": "ytm",
           "style": "plain",
           "powerline_symbol": "\uE0B0",
@@ -54,26 +65,6 @@
             "home_icon": "~",
             "folder_separator_icon": " \uE0b1 ",
             "style": "folder"
-          }
-        },
-        {
-          "type": "battery",
-          "style": "plain",
-          "powerline_symbol": "\uE0B0",
-          "foreground": "#193549",
-          "background": "#ffeb3b",
-          "properties": {
-            "battery_icon": "",
-            "discharging_icon": "\uE231 ",
-            "charging_icon": "\uE234 ",
-            "charged_icon": "\uE22F ",
-            "color_background": true,
-            "charged_color": "#4caf50",
-            "charging_color": "#40c4ff",
-            "discharging_color": "#ff5722",
-            "postfix": "\uF295 ",
-            "display_charging": true,
-            "display_charged": true
           }
         },
         {
@@ -150,6 +141,24 @@
           "properties": {
             "always_enabled": true,
             "prefix": " "
+          }
+        },
+        {
+          "type": "battery",
+          "style": "powerline",
+          "foreground": "#CCCC00",
+          "background": "#2f2f2f",
+          "properties": {
+            "battery_icon": "",
+            "discharging_icon": "\uF578 ",
+            "charging_icon": "\uf583 ",
+            "charged_icon": "\uf584 ",
+            "color_background": false,
+            "charged_color": "#006400",
+            "charging_color": "#00FF00",
+            "discharging_color": "#999900",
+            "postfix": "\u003c#999900\u003e%\u003c/\u003e\u003c#FFFFFF\u003e ╱\u003c/\u003e",
+            "display_charging": true
           }
         },
         {
